@@ -1,0 +1,3 @@
+# Ignore build folders for both projects
+2. Code/HIDtoUART/build/
+2. Code/UARTtoHID/build/
