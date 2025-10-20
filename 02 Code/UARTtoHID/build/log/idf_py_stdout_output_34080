@@ -1,0 +1,819 @@
+Command: C:\Users\jojo1\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Users\jojo1\esp\v5.5.1\esp-idf\tools/idf_monitor.py -p com8 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 C:\Users\jojo1\OneDrive\Documents\ESP\UARTtoHID\build\UARTtoHID.elf C:\Users\jojo1\OneDrive\Documents\ESP\UARTtoHID\build\bootloader\bootloader.elf --force-color -m 'C:\Users\jojo1\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Users\jojo1\esp\v5.5.1\esp-idf\tools\idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x0 (DOWNLOAD(USB/UART0))
+Saved PC:0x40041a7c
+waiting for download
+[0;32mI (3097) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (3097) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (3257) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (3257) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (4027) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (4027) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (4627) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (4627) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (4897) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (4897) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (4977) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (4977) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (5007) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5007) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (5117) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5117) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (5137) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5137) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (5187) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5187) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (5237) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5237) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (5327) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5327) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (5377) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5377) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (5427) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5427) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (5507) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5507) uart_events: 01 00 00 0d 0e 00 00 00 00[0m
+[0;32mI (5517) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5517) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (5567) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5567) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (5627) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5627) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (5717) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5717) uart_events: 01 00 00 0d 0e 00 00 00 00[0m
+[0;32mI (5737) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5737) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (5807) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5807) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (5847) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5847) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (5937) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5937) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (5937) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (5937) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (6027) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6027) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (6047) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6047) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (6137) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6137) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (6147) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6147) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (6237) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6237) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (6257) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6257) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (6337) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6337) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (6357) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6357) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (6457) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6457) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (6457) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6457) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (6567) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6567) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (6577) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6577) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (6657) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6657) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (6687) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6687) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (6777) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6777) uart_events: 01 00 00 0d 0e 00 00 00 00[0m
+[0;32mI (6787) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6787) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (6877) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6877) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (6897) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6897) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (6977) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6977) uart_events: 01 00 00 0d 0e 00 00 00 00[0m
+[0;32mI (6997) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (6997) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (7047) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7047) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (7097) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7097) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (7217) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7217) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (7327) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7327) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (7337) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7337) uart_events: 01 00 00 0d 0e 00 00 00 00[0m
+[0;32mI (7407) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7407) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (7427) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7427) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (7747) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7747) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (7797) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7797) uart_events: 01 00 00 09 16 00 00 00 00[0m
+[0;32mI (7817) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7817) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (7817) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7827) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (7837) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7837) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (7957) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7957) uart_events: 01 00 00 0a 16 00 00 00 00[0m
+[0;32mI (7967) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7967) uart_events: 01 00 00 0a 16 0d 00 00 00[0m
+[0;32mI (7977) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7977) uart_events: 01 00 00 16 0d 00 00 00 00[0m
+[0;32mI (7977) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (7987) uart_events: 01 00 00 16 0d 13 00 00 00[0m
+[0;32mI (8017) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8027) uart_events: 01 00 00 16 0d 00 00 00 00[0m
+[0;32mI (8067) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8067) uart_events: 01 00 00 16 0d 13 00 00 00[0m
+[0;32mI (8077) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8077) uart_events: 01 00 00 16 13 00 00 00 00[0m
+[0;32mI (8107) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8107) uart_events: 01 00 00 16 13 09 00 00 00[0m
+[0;32mI (8147) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8147) uart_events: 01 00 00 13 09 00 00 00 00[0m
+[0;32mI (8217) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8227) uart_events: 01 00 00 13 00 00 00 00 00[0m
+[0;32mI (8267) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8267) uart_events: 01 00 00 13 0d 00 00 00 00[0m
+[0;32mI (8357) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8357) uart_events: 01 00 00 13 0d 0b 00 00 00[0m
+[0;32mI (8367) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8367) uart_events: 01 00 00 0d 0b 00 00 00 00[0m
+[0;32mI (8467) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8467) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (8477) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8477) uart_events: 01 00 00 07 00 00 00 00 00[0m
+[0;32mI (8497) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8497) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (8587) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8587) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (8617) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8617) uart_events: 01 00 00 09 0a 00 00 00 00[0m
+[0;32mI (8637) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8637) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (8717) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8717) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (8727) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8727) uart_events: 01 00 00 0b 00 00 00 00 00[0m
+[0;32mI (8867) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8867) uart_events: 01 00 00 0b 16 00 00 00 00[0m
+[0;32mI (8887) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8887) uart_events: 01 00 00 0b 16 07 00 00 00[0m
+[0;32mI (8927) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8927) uart_events: 01 00 00 0b 16 07 09 00 00[0m
+[0;32mI (8977) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (8977) uart_events: 01 00 00 16 07 09 00 00 00[0m
+[0;32mI (9037) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9037) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (9047) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9047) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (9057) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9057) uart_events: 01 00 00 09 0a 00 00 00 00[0m
+[0;32mI (9067) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9067) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (9147) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9147) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (9237) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9237) uart_events: 01 00 00 16 00 00 00 00 00[0m
+[0;32mI (9267) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9267) uart_events: 01 00 00 16 07 00 00 00 00[0m
+[0;32mI (9297) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9297) uart_events: 01 00 00 16 07 09 00 00 00[0m
+[0;32mI (9387) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9387) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (9417) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9417) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (9437) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9437) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (9447) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9447) uart_events: 01 00 00 12 0c 00 00 00 00[0m
+[0;32mI (9457) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9457) uart_events: 01 00 00 12 0c 18 00 00 00[0m
+[0;32mI (9497) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9497) uart_events: 01 00 00 0c 18 00 00 00 00[0m
+[0;32mI (9557) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9557) uart_events: 01 00 00 18 00 00 00 00 00[0m
+[0;32mI (9627) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9627) uart_events: 01 00 00 18 16 00 00 00 00[0m
+[0;32mI (9637) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9637) uart_events: 01 00 00 16 00 00 00 00 00[0m
+[0;32mI (9647) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9647) uart_events: 01 00 00 16 0d 00 00 00 00[0m
+[0;32mI (9667) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9667) uart_events: 01 00 00 16 0d 07 00 00 00[0m
+[0;32mI (9707) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9707) uart_events: 01 00 00 16 0d 07 09 00 00[0m
+[0;32mI (9727) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9727) uart_events: 01 00 00 16 07 09 00 00 00[0m
+[0;32mI (9747) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9747) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (9757) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9757) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (9787) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9787) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (9787) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9787) uart_events: 01 00 00 0c 00 00 00 00 00[0m
+[0;32mI (9867) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (9867) uart_events: 01 00 00 0c 18 00 00 00 00[0m
+[0;32mI (10007) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10007) uart_events: 01 00 00 18 00 00 00 00 00[0m
+[0;32mI (10017) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10017) uart_events: 01 00 00 18 07 00 00 00 00[0m
+[0;32mI (10037) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10037) uart_events: 01 00 00 18 07 09 00 00 00[0m
+[0;32mI (10047) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10047) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (10147) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10147) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (10157) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10157) uart_events: 01 00 00 09 0a 00 00 00 00[0m
+[0;32mI (10197) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10197) uart_events: 01 00 00 09 0a 12 00 00 00[0m
+[0;32mI (10207) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10207) uart_events: 01 00 00 0a 12 00 00 00 00[0m
+[0;32mI (10247) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10247) uart_events: 01 00 00 12 00 00 00 00 00[0m
+[0;32mI (10267) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10267) uart_events: 01 00 00 12 18 00 00 00 00[0m
+[0;32mI (10287) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10287) uart_events: 01 00 00 12 18 0c 00 00 00[0m
+[0;32mI (10347) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10347) uart_events: 01 00 00 18 0c 00 00 00 00[0m
+[0;32mI (10377) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10377) uart_events: 01 00 00 18 00 00 00 00 00[0m
+[0;32mI (10387) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10387) uart_events: 01 00 00 18 16 00 00 00 00[0m
+[0;32mI (10407) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10407) uart_events: 01 00 00 18 16 07 00 00 00[0m
+[0;32mI (10427) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10427) uart_events: 01 00 00 16 07 00 00 00 00[0m
+[0;32mI (10437) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10437) uart_events: 01 00 00 16 07 09 00 00 00[0m
+[0;32mI (10487) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10487) uart_events: 01 00 00 16 07 09 12 00 00[0m
+[0;32mI (10537) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10537) uart_events: 01 00 00 07 09 12 00 00 00[0m
+[0;32mI (10547) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10547) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (10547) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10547) uart_events: 01 00 00 09 0a 00 00 00 00[0m
+[0;32mI (10577) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10577) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (10587) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10587) uart_events: 01 00 00 0a 0c 00 00 00 00[0m
+[0;32mI (10617) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10617) uart_events: 01 00 00 0a 0c 12 00 00 00[0m
+[0;32mI (10627) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10627) uart_events: 01 00 00 0a 0c 12 18 00 00[0m
+[0;32mI (10637) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10637) uart_events: 01 00 00 0c 12 18 00 00 00[0m
+[0;32mI (10717) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10717) uart_events: 01 00 00 0c 12 18 16 00 00[0m
+[0;32mI (10747) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10747) uart_events: 01 00 00 0c 12 18 16 07 00[0m
+[0;32mI (10777) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10777) uart_events: 01 00 00 12 18 16 07 00 00[0m
+[0;32mI (10787) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10787) uart_events: 01 00 00 18 16 07 00 00 00[0m
+[0;32mI (10787) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10787) uart_events: 01 00 00 16 07 00 00 00 00[0m
+[0;32mI (10817) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10817) uart_events: 01 00 00 16 07 09 00 00 00[0m
+[0;32mI (10877) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10877) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (10907) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10907) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (10927) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10927) uart_events: 01 00 00 09 0a 00 00 00 00[0m
+[0;32mI (10937) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (10937) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (11017) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11017) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (11027) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11027) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (11027) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11027) uart_events: 01 00 00 0e 0f 00 00 00 00[0m
+[0;32mI (11067) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11067) uart_events: 01 00 00 0e 0f 0d 00 00 00[0m
+[0;32mI (11187) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11187) uart_events: 01 00 00 0e 0f 0d 07 00 00[0m
+[0;32mI (11187) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11187) uart_events: 01 00 00 0e 0d 07 00 00 00[0m
+[0;32mI (11197) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11197) uart_events: 01 00 00 0e 0d 07 16 00 00[0m
+[0;32mI (11217) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11217) uart_events: 01 00 00 0e 0d 07 16 09 00[0m
+[0;32mI (11287) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11287) uart_events: 01 00 00 0d 07 16 09 00 00[0m
+[0;32mI (11347) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11347) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (11357) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11357) uart_events: 01 00 00 09 0a 00 00 00 00[0m
+[0;32mI (11387) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11387) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (11457) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11457) uart_events: 01 00 00 0a 0f 00 00 00 00[0m
+[0;32mI (11467) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11467) uart_events: 01 00 00 0f 00 00 00 00 00[0m
+[0;32mI (11547) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11547) uart_events: 01 00 00 0f 0e 00 00 00 00[0m
+[0;32mI (11587) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11587) uart_events: 01 00 00 0f 0e 0d 00 00 00[0m
+[0;32mI (11607) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11607) uart_events: 01 00 00 0f 0e 0d 07 00 00[0m
+[0;32mI (11617) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11617) uart_events: 01 00 00 0f 0e 0d 07 16 00[0m
+[0;32mI (11667) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11667) uart_events: 01 00 00 0f 0e 0d 07 16 09[0m
+[0;32mI (11687) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11687) uart_events: 01 00 00 0e 0d 07 16 09 00[0m
+[0;32mI (11757) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11757) uart_events: 01 00 00 0e 0d 07 09 00 00[0m
+[0;32mI (11797) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11797) uart_events: 01 00 00 0e 0d 09 00 00 00[0m
+[0;32mI (11817) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11817) uart_events: 01 00 00 0e 0d 00 00 00 00[0m
+[0;32mI (11827) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11827) uart_events: 01 00 00 0d 0a 00 00 00 00[0m
+[0;32mI (11877) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11877) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (11897) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11897) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (11957) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (11957) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (12077) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12077) uart_events: 01 00 00 0e 16 00 00 00 00[0m
+[0;32mI (12087) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12087) uart_events: 01 00 00 0e 16 0d 00 00 00[0m
+[0;32mI (12107) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12107) uart_events: 01 00 00 0e 16 0d 07 00 00[0m
+[0;32mI (12227) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12227) uart_events: 01 00 00 16 0d 07 00 00 00[0m
+[0;32mI (12257) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12257) uart_events: 01 00 00 16 07 00 00 00 00[0m
+[0;32mI (12267) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12267) uart_events: 01 00 00 16 07 09 00 00 00[0m
+[0;32mI (12357) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12357) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (12407) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12407) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (12417) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12417) uart_events: 01 00 00 09 0a 00 00 00 00[0m
+[0;32mI (12467) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12467) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (12467) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12467) uart_events: 01 00 00 0a 0f 00 00 00 00[0m
+[0;32mI (12507) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12507) uart_events: 01 00 00 0a 0f 0e 00 00 00[0m
+[0;32mI (12557) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12557) uart_events: 01 00 00 0f 0e 00 00 00 00[0m
+[0;32mI (12627) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12627) uart_events: 01 00 00 0f 0e 0d 00 00 00[0m
+[0;32mI (12827) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12827) uart_events: 01 00 00 0f 0e 0d 07 00 00[0m
+[0;32mI (12887) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12887) uart_events: 01 00 00 0f 0e 0d 07 09 00[0m
+[0;32mI (12897) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (12897) uart_events: 01 00 00 0f 0d 07 09 00 00[0m
+[0;32mI (13087) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13087) uart_events: 01 00 00 0f 00 00 00 00 00[0m
+[0;32mI (13097) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13097) uart_events: 01 00 00 0f 0a 00 00 00 00[0m
+[0;32mI (13107) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13107) uart_events: 01 00 00 0f 0a 0b 00 00 00[0m
+[0;32mI (13117) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13117) uart_events: 01 00 00 0a 0b 00 00 00 00[0m
+[0;32mI (13177) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13177) uart_events: 01 00 00 0b 00 00 00 00 00[0m
+[0;32mI (13287) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13287) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (13367) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13367) uart_events: 01 00 00 16 00 00 00 00 00[0m
+[0;32mI (13377) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13377) uart_events: 01 00 00 16 0a 00 00 00 00[0m
+[0;32mI (13427) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13427) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (13447) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13447) uart_events: 01 00 00 0a 0b 00 00 00 00[0m
+[0;32mI (13497) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13497) uart_events: 01 00 00 0b 00 00 00 00 00[0m
+[0;32mI (13577) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13577) uart_events: 01 00 00 0b 0d 00 00 00 00[0m
+[0;32mI (13607) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13607) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (13617) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13617) uart_events: 01 00 00 0d 16 00 00 00 00[0m
+[0;32mI (13667) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13667) uart_events: 01 00 00 0d 16 07 00 00 00[0m
+[0;32mI (13707) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13707) uart_events: 01 00 00 0d 16 07 09 00 00[0m
+[0;32mI (13757) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13757) uart_events: 01 00 00 0d 16 07 09 0e 00[0m
+[0;32mI (13767) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13767) uart_events: 01 00 00 0d 07 09 0e 00 00[0m
+[0;32mI (13797) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13797) uart_events: 01 00 00 0d 09 0e 00 00 00[0m
+[0;32mI (13827) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13827) uart_events: 01 00 00 0d 0e 00 00 00 00[0m
+[0;32mI (13987) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13987) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (13987) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (13987) uart_events: 01 00 00 0e 16 00 00 00 00[0m
+[0;32mI (14027) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14027) uart_events: 01 00 00 16 00 00 00 00 00[0m
+[0;32mI (14047) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14047) uart_events: 01 00 00 16 07 00 00 00 00[0m
+[0;32mI (14097) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14097) uart_events: 01 00 00 16 07 09 00 00 00[0m
+[0;32mI (14167) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14167) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (14187) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14187) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (14187) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14187) uart_events: 01 00 00 09 0a 00 00 00 00[0m
+[0;32mI (14217) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14217) uart_events: 01 00 00 0a 00 00 00 00 00[0m
+[0;32mI (14237) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14237) uart_events: 01 00 00 0a 0f 00 00 00 00[0m
+[0;32mI (14277) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14277) uart_events: 01 00 00 0a 0f 0e 00 00 00[0m
+[0;32mI (14307) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14307) uart_events: 01 00 00 0a 0f 0e 0d 00 00[0m
+[0;32mI (14307) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14307) uart_events: 01 00 00 0f 0e 0d 00 00 00[0m
+[0;32mI (14687) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14687) uart_events: 01 00 00 0f 00 00 00 00 00[0m
+[0;32mI (14697) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14697) uart_events: 01 00 00 0f 0a 00 00 00 00[0m
+[0;32mI (14767) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14767) uart_events: 01 00 00 0f 0a 16 00 00 00[0m
+[0;32mI (14787) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14787) uart_events: 01 00 00 0f 16 00 00 00 00[0m
+[0;32mI (14787) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14787) uart_events: 01 00 00 0f 16 07 00 00 00[0m
+[0;32mI (14857) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14857) uart_events: 01 00 00 0f 16 07 09 00 00[0m
+[0;32mI (14877) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14877) uart_events: 01 00 00 0f 07 09 00 00 00[0m
+[0;32mI (14907) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (14907) uart_events: 01 00 00 0f 09 00 00 00 00[0m
+[0;32mI (15057) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15057) uart_events: 01 00 00 0f 09 0b 00 00 00[0m
+[0;32mI (15067) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15067) uart_events: 01 00 00 0f 0b 00 00 00 00[0m
+[0;32mI (15077) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15077) uart_events: 01 00 00 0f 00 00 00 00 00[0m
+[0;32mI (15087) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15087) uart_events: 01 00 00 0f 07 00 00 00 00[0m
+[0;32mI (15097) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15097) uart_events: 01 00 00 07 16 00 00 00 00[0m
+[0;32mI (15147) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15147) uart_events: 01 00 00 07 16 09 00 00 00[0m
+[0;32mI (15197) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15197) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (15217) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15217) uart_events: 01 00 00 09 00 00 00 00 00[0m
+[0;32mI (15227) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15227) uart_events: 01 00 00 09 0d 00 00 00 00[0m
+[0;32mI (15267) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15267) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (15267) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15267) uart_events: 01 00 00 0d 0a 00 00 00 00[0m
+[0;32mI (15327) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15327) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (15427) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15427) uart_events: 01 00 00 0d 07 00 00 00 00[0m
+[0;32mI (15447) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15447) uart_events: 01 00 00 0d 07 16 00 00 00[0m
+[0;32mI (15467) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15467) uart_events: 01 00 00 0d 07 16 09 00 00[0m
+[0;32mI (15517) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15517) uart_events: 01 00 00 0d 07 16 09 0e 00[0m
+[0;32mI (15527) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15527) uart_events: 01 00 00 0d 07 09 0e 00 00[0m
+[0;32mI (15547) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15547) uart_events: 01 00 00 0d 09 0e 00 00 00[0m
+[0;32mI (15577) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15577) uart_events: 01 00 00 09 0e 00 00 00 00[0m
+[0;32mI (15587) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15587) uart_events: 01 00 00 0e 00 00 00 00 00[0m
+[0;32mI (15667) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15667) uart_events: 01 00 00 0e 0f 00 00 00 00[0m
+[0;32mI (15807) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15807) uart_events: 01 00 00 0f 00 00 00 00 00[0m
+[0;32mI (15847) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15847) uart_events: 01 00 00 0f 09 00 00 00 00[0m
+[0;32mI (15867) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15867) uart_events: 01 00 00 0f 09 0b 00 00 00[0m
+[0;32mI (15917) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (15917) uart_events: 01 00 00 0f 0b 00 00 00 00[0m
+[0;32mI (16057) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16057) uart_events: 01 00 00 0f 00 00 00 00 00[0m
+[0;32mI (16127) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16127) uart_events: 01 00 00 0f 0e 00 00 00 00[0m
+[0;32mI (16167) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16167) uart_events: 01 00 00 0f 0e 0d 00 00 00[0m
+[0;32mI (16187) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16187) uart_events: 01 00 00 0f 0e 0d 09 00 00[0m
+[0;32mI (16257) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16257) uart_events: 01 00 00 0f 0e 0d 00 00 00[0m
+[0;32mI (16417) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16417) uart_events: 01 00 00 0f 0d 00 00 00 00[0m
+[0;32mI (16467) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16467) uart_events: 01 00 00 0f 0d 07 00 00 00[0m
+[0;32mI (16527) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16527) uart_events: 01 00 00 0d 07 00 00 00 00[0m
+[0;32mI (16587) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16587) uart_events: 01 00 00 0d 00 00 00 00 00[0m
+[0;32mI (16597) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16597) uart_events: 01 00 00 0d 0b 00 00 00 00[0m
+[0;32mI (16607) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16607) uart_events: 01 00 00 0b 00 00 00 00 00[0m
+[0;32mI (16707) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16707) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (16737) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16737) uart_events: 01 00 00 07 00 00 00 00 00[0m
+[0;32mI (16787) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16787) uart_events: 01 00 00 07 09 00 00 00 00[0m
+[0;32mI (16877) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16877) uart_events: 01 00 00 07 00 00 00 00 00[0m
+[0;32mI (16887) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (16887) uart_events: 01 00 00 00 00 00 00 00 00[0m
+[0;32mI (875187) uart_events: [UART DATA]: 1 bytes received[0m
+
+[0;32mI (875187) uart_events: ff[0m
+[0;32mI (876507) uart_events: [UART DATA]: 1 bytes received[0m
+
+[0;32mI (876507) uart_events: ff[0m

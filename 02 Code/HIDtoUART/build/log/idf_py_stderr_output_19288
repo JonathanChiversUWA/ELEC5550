@@ -1,0 +1,225 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Users\jojo1\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 C:\Users\jojo1\UWA\ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26\16 Github\ELEC5550\2. Code\HIDtoUART
+CMake Warning in C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/CMakeFiles/CMakeScratch/TryCompile-ufrtj2/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/CMakeFiles/CMakeScratch/TryCompile-ufrtj2/CMakeFiles/cmTC_e700f.dir/./
+
+  has 230 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCCompilerABI.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/CMakeFiles/CMakeScratch/TryCompile-wd0p87/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/CMakeFiles/CMakeScratch/TryCompile-wd0p87/CMakeFiles/cmTC_7f1bb.dir/./
+
+  has 230 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCXXCompilerABI.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/esp_driver_gpio/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/./
+
+  has 223 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    src/gpio_glitch_filter_ops.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/mbedtls/mbedtls/3rdparty/everest/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/./
+
+  has 226 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    library/Hacl_Curve25519_joined.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/./
+
+  has 223 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    p256-m_driver_entrypoints.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/mbedtls/mbedtls/library/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/./
+
+  has 220 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    psa_crypto_driver_wrappers_no_static.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/mbedtls/mbedtls/library/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/./
+
+  has 217 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    ba47ce18ed6cdda74e4d8d28a5e1f7a4/esp_platform_time.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/esp_bootloader_format/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/./
+
+  has 235 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    esp_bootloader_desc.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/efuse/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/./
+
+  has 203 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    1abec6c965ee36358969cf4eaf4865b4/esp_efuse_api_key.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/bootloader_support/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/./
+
+  has 229 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    src/bootloader_utility.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/esp_system/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/./
+
+  has 213 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    task_wdt/task_wdt_impl_timergroup.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/esp_rom/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/./
+
+  has 207 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    patches/esp_rom_cache_writeback_esp32s3.S.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/log/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/log/CMakeFiles/__idf_log.dir/./
+
+  has 199 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    71fa06480115a7834831de7ae56aeed4/log_binary_heap.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/esp_hw_support/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/./
+
+  has 221 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    port/esp32s3/esp_cpu_intr.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in C:/Users/jojo1/esp/v5.5.1/esp-idf/components/freertos/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/./
+
+  has 209 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    FreeRTOS-Kernel/portable/xtensa/port.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in managed_components/espressif__usb_host_hid/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/esp-idf/espressif__usb_host_hid/CMakeFiles/__idf_espressif__usb_host_hid.dir/./
+
+  has 239 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    hid_host.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+

@@ -1,0 +1,62 @@
+Protel Design System Design Rule Check
+PCB File : \\Mac\Home\Library\CloudStorage\OneDrive-UWA\UWA\Design Project\Altium\Final PCB Design\Final_PCB.PcbDoc
+Date     : 18/10/2025
+Time     : 18:00:53
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.07mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.047mm < 0.07mm) Between Pad USB2-1(114.895mm,70.35mm) on Top Layer And Pad USB2-2(114.245mm,70.35mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.047mm < 0.07mm) Between Pad USB2-2(114.245mm,70.35mm) on Top Layer And Pad USB2-3(113.595mm,70.35mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.047mm < 0.07mm) Between Pad USB2-3(113.595mm,70.35mm) on Top Layer And Pad USB2-4(112.945mm,70.35mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.047mm < 0.07mm) Between Pad USB2-4(112.945mm,70.35mm) on Top Layer And Pad USB2-5(112.295mm,70.35mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]
+Rule Violations :4
+
+Processing Rule : Silk To Solder Mask (Clearance=0.07mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.048mm < 0.07mm) Between Pad B0-1(128.463mm,41.245mm) on Top Layer And Track (127.938mm,40.72mm)(127.938mm,41.77mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.048mm]
+Rule Violations :1
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 5
+Waived Violations : 0
+Time Elapsed        : 00:00:00

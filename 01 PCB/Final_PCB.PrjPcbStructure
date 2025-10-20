@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Laser Schematic.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Laser Schematic.SchDoc|FileName=MCU Schematic.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Laser Schematic.SchDoc|FileName=USB Schematic.SchDoc|SheetNumber=3

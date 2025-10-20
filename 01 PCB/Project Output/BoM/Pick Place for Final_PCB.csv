@@ -1,0 +1,60 @@
+Altium Designer Pick and Place Locations
+C:\Users\varenlutchmanen\OneDrive - UWA\UWA\Design Project\Altium\Final_PCB_v1.0\Final_PCB_v1\Project Outputs for Final_PCB_v1\Pick Place for Final_PCB.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       09/10/25
+Time:       21:42
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"PP1","C18723055","TopLayer","2541FV-2×4P","60.4520","45.5930","180","-40?~+105? 2 2.54mm 2.54mm 2x4P 3A 8P Square Hole Through Hole Top Plugin,P=2.54mm Female Headers ROHS"
+"U0","LM3940IMPX-3.3/NOPB","TopLayer","FP-DCY0004A-MFG","100.7110","67.1830","180","IC REG LINEAR 3.3V 1A SOT223-4"
+"C10","CL21C102JBCNNNC","TopLayer","FP-C0805C-DN-MFG","117.9710","50.4190","180","C0805 1,000 pF X7R 30ppm/°C 5.00% 50 V"
+"R9","RC0603JR-07220RL","TopLayer","RESC1608X55X25LL10T15","107.9500","47.2440","0","Chip Resistor, 220 Ohm, +/- 5%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"
+"R6","RC0603JR-1010KL","TopLayer","RESC1608X55X25LL10T15","107.9500","40.0050","0",""
+"R5","AC0603FR-101KL","TopLayer","FP-AC0603-IPC_C","135.1280","36.1950","0","RES 1kO 1.00% 0.1W 0603"
+"R4","AC0603FR-101KL","TopLayer","FP-AC0603-IPC_C","107.8647","50.8000","0","RES 1kO 1.00% 0.1W 0603"
+"R3","RT0603BRE07200RL","TopLayer","FP-RT0603-MFG","108.2920","36.1950","180","RES SMD 200 OHM 0.1% 1/10W 0603"
+"R0","RC0603FR-1022RL","TopLayer","RESC1608X55X25LL10T15","107.9500","43.6880","0",""
+"C6","08055C103KAT2A","TopLayer","CAPC2013X140X50LL20T25","134.6820","38.8620","0",""
+"C0","08055F103KAT2A","TopLayer","CAPC2013X140X50LL20T25","125.7300","41.8480","270",""
+"B0","LTC6752IS5#TRMPBF","TopLayer","SOT95P280X100-5N","129.4130","42.5450","90","LINEAR TECHNOLOGY - LTC6752IS5#TRMPBF - Analogue Comparator, Single, High Speed, 1 Comparator, 3.4 ns, 2.45V to 3.5V, TSOT-23, 5 Pins"
+"U1","TS3USB221DRCR","TopLayer","DRC0010J_V","107.0610","59.0550","270","High-Speed USB 2.0 (480 Mbps) 1:2 Multiplexer / Demultiplexer Switch with Single Enable, 6 ohm RON, 2.5 to 3.3V, -40 to 85 degC, 10-Pin SON (DRC), Green (RoHS & no Sb/Br)"
+"C8","CC0805KRX7R9BB104","TopLayer","FP-CC0805-0_85-MFG","108.6760","28.3210","180","CAP CER 0.1UF 50V X7R 0805"
+"C7","CC0805KRX7R9BB104","TopLayer","FP-CC0805-0_85-MFG","123.3170","35.9770","90","CAP CER 0.1UF 50V X7R 0805"
+"C12","GJM1555C1H2R0WB01D","TopLayer","FP-GJM155-0_05-IPC_A","127.7620","49.5006","270","Multi-Layer Ceramic Capacitor 2pF C0G  ±0.05pF 0402 Paper T/R"
+"R7","RT0603BRD0750KL","TopLayer","FP-RT0603-0_55-MFG","135.2550","49.8720","270","RES 50K OHM 0.1% 1/10W 0603"
+"USB2","1981568-1","TopLayer","TECO-1981568-5_V","113.5950","71.6875","180","Micro USB Receptacle Standard Type B Assy, 5-Pin SMD, RoHS, Tape and Reel"
+"USB1","292303-1","TopLayer","TE-292303-1_V","82.8040","64.6000","180","1 Port Right Angle Through Hole Mount Female Type A USB Connector, 4 Position, -55 to 85 degC, RoHS, Tube"
+"C9","860160272010","TopLayer","WCAP-ATLL_D5H11","84.8360","51.6730","90","860160272010 Cap, 120Uf, 10V, Alu Elec, Radial Rohs Compliant: Yes"
+"J2","691214110003","TopLayer","691214110003","61.8490","31.4250","90",""
+"J1","691214110002S","TopLayer","691214110002S","71.7830","29.0830","0",""
+"J0","691214110002S","TopLayer","691214110002S","123.4160","29.3370","0",""
+"C13","08055C103KAT2A","TopLayer","CAPC2013X140X50LL20T25","117.3480","36.3220","270",""
+"R12","RC0603FR-07560RL","TopLayer","RESC1608X55X25ML10T15","66.8020","29.9840","90","Chip Resistor, 560 Ohm, +/- 1%, 0.1 W, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"
+"R11","RCT03100KJLF","TopLayer","FP-AT0603-IPC_A","69.2273","72.2630","180","-55?~+155? 100kO 100mW 75V Thick Film Resistor ±100ppm/? ±5% 0603 Chip Resistor - Surface Mount ROHS"
+"R10","RCT0320KJLF","TopLayer","FP-RT0603-MFG","69.2540","66.5480","180","RT0603 20KO 0.1W 25 ppm/°C 0.10%"
+"R8","RC0603JR-0722RL","TopLayer","FP-RC0603-0_55-IPC_C","97.6630","48.3017","270","RES SMD 22 OHM 5% 1/10W 0603"
+"R2","RC0603JR-0722RL","TopLayer","FP-RC0603-0_55-IPC_C","95.5090","48.3017","270","RES SMD 22 OHM 5% 1/10W 0603"
+"C11","KS336M016C07RR0VH2FP0","TopLayer","WCAP-ATLL_D5H11","117.2210","62.7220","90","860160372005 Aluminium Electrolytic Capacitor-Leaded Rohs Compliant: Yes"
+"C15","CL10B474KA8NNNC","TopLayer","FP-GRM188-0_1-e0_2_0_5-MFG","132.9290","72.5170","180","25V 470nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+"F1","1206L050/15YR","TopLayer","FP-1206L-MFG","60.1950","72.3900","180","PTC RESET FUSE 15V 500MA 1206"
+"D1","PESD5V0S1BA,115","TopLayer","FP-SOD323-CA-MFG","59.7330","68.4530","0","TVS DIODE 5V 14V SOD323"
+"CLS1","TPS2553DBVR","TopLayer","SOT95P280X145-6N","93.7260","58.1660","0","Integrated Circuit"
+"U2","LTC6268IS8-10#TRPBF","TopLayer","SOIC127P599X175-8N","120.1420","42.7990","0","Integrated Circuit"
+"Reset","B3F-1000","TopLayer","OMRON-B3F-1000-4_V","81.2800","38.8620","0","Tactile Switch, SPST-NO, 0.05 A, 5 to 24 V, -25 to 70 degC, 4-Pin THD, RoHS, Bulk"
+"R1","RN73C1J10KB","TopLayer","FP-RN731J-MFG","133.0850","60.8330","180","Thin Film Resistors RN 0603 10KO 0.1% 10ppm/°C"
+"P0","61300311121","TopLayer","61300311121","135.2550","30.2260","270",""
+"NMOS","2N7002BK","TopLayer","TL431CDBZR215","72.0090","36.9570","180","MOSFET (N-Channel)"
+"ESP32-S3-MINI","ESP32-S3-MINI-1U-N8","TopLayer","XCVR_ESP32-S3-MINI-1U-N8","95.7570","35.0530","180","Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Antenna Not Included, U.FL Surface Mount"
+"C14","CC0805KRX7R9BB104","TopLayer","FP-CC0805-0_85-MFG","132.6240","68.8340","0","CAP CER 0.1UF 50V X7R 0805"
+"C5","CC0805KRX7R9BB104","TopLayer","FP-CC0805-0_85-MFG","132.8780","64.6430","180","CAP CER 0.1UF 50V X7R 0805"
+"C4","CC0805KRX7R9BB104","TopLayer","FP-CC0805-0_85-MFG","133.0050","57.5310","0","CAP CER 0.1UF 50V X7R 0805"
+"C3","CC0805KRX7R9BB104","TopLayer","FP-CC0805-0_85-MFG","59.9080","65.0240","0","CAP CER 0.1UF 50V X7R 0805"
+"C2","CC0805KKX7R7BB105","TopLayer","FP-CC0805-0_85-MFG","60.0350","57.1500","180","CAP CER 1UF 16V X7R 0805"
+"C1","CC0805KKX7R7BB105","TopLayer","FP-CC0805-0_85-MFG","60.0350","61.0870","0","CAP CER 1UF 16V X7R 0805"
+"Boot","B3F-1000","TopLayer","OMRON-B3F-1000-4_V","81.2800","29.9720","180","Tactile Switch, SPST-NO, 0.05 A, 5 to 24 V, -25 to 70 degC, 4-Pin THD, RoHS, Bulk"

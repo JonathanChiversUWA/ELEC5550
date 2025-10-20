@@ -1,0 +1,121 @@
+Command: C:\Users\jojo1\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Users\jojo1\esp\v5.5.1\esp-idf\tools/idf_monitor.py -p com8 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 C:\Users\jojo1\OneDrive\Documents\ESP\UARTtoHID\build\UARTtoHID.elf C:\Users\jojo1\OneDrive\Documents\ESP\UARTtoHID\build\bootloader\bootloader.elf --force-color -m 'C:\Users\jojo1\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Users\jojo1\esp\v5.5.1\esp-idf\tools\idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x0 (DOWNLOAD(USB/UART0))
+Saved PC:0x40041a76
+waiting for download
+[1;31mE (5277) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (5277) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (5277) task_wdt: Tasks currently running:[0m
+[1;31mE (5277) task_wdt: CPU 0: main[0m
+[1;31mE (5277) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (5277) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4200D206:0x3FC94740 0x4200D61C:0x3FC94760 0x40376BE5:0x3FC94790 0x4200B185:0x3FC99280 0x4201A34C:0x3FC992B0 0x4037AFCD:0x3FC992E0
+
+[1;31mE (10277) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (10277) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (10277) task_wdt: Tasks currently running:[0m
+[1;31mE (10277) task_wdt: CPU 0: main[0m
+[1;31mE (10277) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (10277) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4200D206:0x3FC94740 0x4200D61C:0x3FC94760 0x40376BE5:0x3FC94790 0x4200B185:0x3FC99280 0x4201A34C:0x3FC992B0 0x4037AFCD:0x3FC992E0
+
+[1;31mE (15277) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (15277) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (15277) task_wdt: Tasks currently running:[0m
+[1;31mE (15277) task_wdt: CPU 0: main[0m
+[1;31mE (15277) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (15277) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4200D206:0x3FC94740 0x4200D61C:0x3FC94760 0x40376BE5:0x3FC94790 0x4200B185:0x3FC99280 0x4201A34C:0x3FC992B0 0x4037AFCD:0x3FC992E0
+
+[1;31mE (20277) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (20277) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (20277) task_wdt: Tasks currently running:[0m
+[1;31mE (20277) task_wdt: CPU 0: main[0m
+[1;31mE (20277) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (20277) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4200D206:0x3FC94740 0x4200D61C:0x3FC94760 0x40376BE5:0x3FC94790 0x4200B185:0x3FC99280 0x4201A34C:0x3FC992B0 0x4037AFCD:0x3FC992E0
+
+[1;31mE (25277) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (25277) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (25277) task_wdt: Tasks currently running:[0m
+[1;31mE (25277) task_wdt: CPU 0: main[0m
+[1;31mE (25277) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (25277) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4200D206:0x3FC94740 0x4200D61C:0x3FC94760 0x40376BE5:0x3FC94790 0x4200B185:0x3FC99280 0x4201A34C:0x3FC992B0 0x4037AFCD:0x3FC992E0
+
+[0;32mI (29337) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (29367) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (29517) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (29527) uart_events: [UART DATA]: 9 bytes received[0m
+[0;32mI (1969320564) <not found 34372920>: <not found 49202839>[0m
+s received
+
+I (1147) uart_events: [UART DATA]: 9 bytes received
+
+I (1167) uart_events: [UART DATA]: 9 bytes received
+
+[0;32mI (1237) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1247) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1267) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1467) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1477) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1477) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1517) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1527) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1557) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1597) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1617) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1627) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1767) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1777) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1817) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (1867) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (3427) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (3437) uart_events: [UART DATA]: 9 bytes received[0m
+
+[0;32mI (3507) uart_events: [UART DATA]: 9 bytes received[0m
+[0;32mI (544563570) <not found 39333729>: <not found 49202833>[0m
+tes received
+
+[1;31mE (5267) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (5267) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (5267) task_wdt: Tasks currently running:[0m
+[1;31mE (5267) task_wdt: CPU 0: main[0m
+[1;31mE (5267) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (5267) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4200D206:0x3FC94740 0x4200D61C:0x3FC94760 0x40376BE5:0x3FC94790 0x4200B185:0x3FC99280 0x4201A34C:0x3FC992B0 0x4037AFCD:0x3FC992E0
+
+[0;32mI (5507) uart_events: [UART DATA]: 9 bytes received[0m
