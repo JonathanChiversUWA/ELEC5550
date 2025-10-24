@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "C:/Users/jojo1/UWA/ELEC5550 Advanced Electrical and Electronic Engineering Design SEM-2 2025 - Team 0-26 - Team 0-26/16 Github/ELEC5550/2. Code/HIDtoUART/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
