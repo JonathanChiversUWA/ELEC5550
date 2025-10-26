@@ -215,13 +215,13 @@ static void search(){
 
         usb_host_start();
         TickType_t start = xTaskGetTickCount();
-        while ((xTaskGetTickCount() - start) < pdMS_TO_TICKS(300)){
+        while ((xTaskGetTickCount() - start) < pdMS_TO_TICKS(2000)){
             if(usb_host_device_connected()){
                 usb_host_uart_start();
-                conn_status = STATUS_HOST;;
+                conn_status = STATUS_HOST;
                 return;
             }
-            vTaskDelay(pdMS_TO_TICKS(2));
+            vTaskDelay(pdMS_TO_TICKS(10));
         }
         usb_host_stop();
         vTaskDelay(pdMS_TO_TICKS(10));
@@ -234,13 +234,13 @@ static void search(){
 
         usb_device_start();
         TickType_t start = xTaskGetTickCount();
-        while ((xTaskGetTickCount() - start) < pdMS_TO_TICKS(1000)){
+        while ((xTaskGetTickCount() - start) < pdMS_TO_TICKS(2000)){
             if(usb_device_is_connected()){
                 usb_device_uart_start();
                 conn_status = STATUS_DEVICE;
                 return;
             }
-            vTaskDelay(pdMS_TO_TICKS(2));
+            vTaskDelay(pdMS_TO_TICKS(10));
         }
         usb_device_stop();
         vTaskDelay(pdMS_TO_TICKS(10));
@@ -294,14 +294,14 @@ void app_main(void)
                 break; //end case
             case STATUS_DEVICE:
                 if(!usb_device_is_connected()){
-                    usb_device_stop();
                     conn_status = STATUS_NONE;
+                    usb_device_stop();
                 }
                 break;
             case STATUS_HOST:
                 if(!usb_host_device_connected()){
-                    usb_host_stop();
                     conn_status = STATUS_NONE;
+                    usb_host_stop();
                 }
                 break;
         }

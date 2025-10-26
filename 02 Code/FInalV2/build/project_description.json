@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "FinalV2",
-    "project_version":    "38f86a6-dirty",
+    "project_version":    "b8c90a3-dirty",
     "project_path":       "C:/Github/ELEC5550/02 Code/FInalV2",
     "idf_path":           "C:/Users/jojo1/esp/v5.5.1/esp-idf",
     "build_dir":          "C:/Github/ELEC5550/02 Code/FInalV2/build",

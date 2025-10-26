@@ -197,7 +197,7 @@ static void app_send_hid_data(uint8_t *data, int length){
     }
 }
 
-static void uart_event_task(void *params){
+static void uart_device_event_task(void *params){
     uart_event_t event; //holds UART event
     uint8_t* dtmp = (uint8_t*) malloc(BUF_SIZE); //allocate memory for temp buffer
     uart_device_task_running = true;
@@ -261,7 +261,7 @@ void usb_device_start(void)
 void usb_device_uart_start(void)
 {
     if (uart_task_handle != NULL || module_status == STATUS_CALIBRATION) return;
-    xTaskCreate(uart_event_task, "uart_event_task", UART_TASK_STACK_SZ, NULL, 12, &uart_task_handle);
+    xTaskCreate(uart_device_event_task, "uart_event_task", UART_TASK_STACK_SZ, NULL, 12, &uart_task_handle);
 }
 
 void usb_device_stop(void)

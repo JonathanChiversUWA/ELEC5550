@@ -151,7 +151,7 @@ static void hid_host_device_event(hid_host_device_handle_t hid_device_handle,
     }
 }
 
-void uart_event_task(){
+void uart_host_event_task(){
     uart_host_task_running = true;
 
     while(uart_host_task_running){
@@ -210,7 +210,7 @@ void usb_host_start(void)
 void usb_host_uart_start(void)
 {
     if (uart_task_handle != NULL || module_status == STATUS_CALIBRATION) return;
-    xTaskCreate(uart_event_task, "uart_event_task", 4096, NULL, 5, &uart_task_handle);
+    xTaskCreate(uart_host_event_task, "uart_event_task", 4096, NULL, 5, &uart_task_handle);
 }
 
 // void usb_host_uart_pause(void)
