@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Users/jojo1/esp/v5.5.1/esp-idf/components/bootloader/subprojec
   file(MAKE_DIRECTORY "C:/Users/jojo1/esp/v5.5.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader"
-  "C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix"
-  "C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/tmp"
-  "C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src"
-  "C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader"
+  "C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix"
+  "C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/tmp"
+  "C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src"
+  "C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
+  include("C:/Github/ELEC5550/02 Code/UARTtoHID/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("C:/Github/ELEC5550/02 Code/UARTtoHID/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("C:/Github/ELEC5550/02 Code/UARTtoHID/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("C:/Github/ELEC5550/02 Code/UARTtoHID/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
 
 endif()
 

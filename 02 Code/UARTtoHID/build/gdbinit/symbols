@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader/bootloader.elf
+    add-symbol-file C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/UARTtoHID.elf
+file C:/Github/ELEC5550/02 Code/UARTtoHID/build/UARTtoHID.elf

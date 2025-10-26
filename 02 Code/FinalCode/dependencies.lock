@@ -1,0 +1,64 @@
+dependencies:
+  espressif/esp_tinyusb:
+    component_hash: 6a50305bc61c7a361da8c0833642be824e92dacb0a6001719a832a4e96e471bf
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    - name: espressif/tinyusb
+      registry_url: https://components.espressif.com
+      require: public
+      version: '>=0.14.2'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.7.6~2
+  espressif/tinyusb:
+    component_hash: 63dfbf468a7969844c714917eee452d678cd4ba27ed23b729df94dfa5d0b0a6f
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    targets:
+    - esp32s2
+    - esp32s3
+    - esp32p4
+    - esp32h4
+    version: 0.19.0~1
+  espressif/usb_host_hid:
+    component_hash: 824d49e67771af546c29d916bd8d7d3526cd2ff5e082d9021cab66d5f9c2b9bc
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4'
+    - name: espressif/usb
+      registry_url: https://components.espressif.com
+      require: public
+      rules:
+      - if: idf_version >=6.0
+      - if: target not in ["linux"]
+      version: ^1.0.0
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    targets:
+    - esp32s2
+    - esp32s3
+    - esp32p4
+    - esp32h4
+    - linux
+    version: 1.0.4
+  idf:
+    source:
+      type: idf
+    version: 5.5.1
+direct_dependencies:
+- espressif/esp_tinyusb
+- espressif/usb_host_hid
+- idf
+manifest_hash: 7fa9658c450703af1df7b87de32da1c161f8a8d6175ec100dc75592b418bfe68
+target: esp32s3
+version: 2.0.0

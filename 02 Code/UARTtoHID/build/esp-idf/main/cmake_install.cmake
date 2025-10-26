@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/main
+# Install script for directory: C:/Github/ELEC5550/02 Code/UARTtoHID/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

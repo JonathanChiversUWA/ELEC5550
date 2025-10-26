@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/CMakeFiles/bootloader
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/CMakeFiles/bootloader.rule
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/CMakeFiles/bootloader-complete.rule
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/CMakeFiles/bootloader
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/CMakeFiles/bootloader.rule
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/CMakeFiles/bootloader-complete.rule
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

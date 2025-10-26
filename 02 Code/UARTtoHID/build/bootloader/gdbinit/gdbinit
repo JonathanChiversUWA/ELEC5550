@@ -1,2 +1,2 @@
-source C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader/gdbinit/symbols
-source C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader/gdbinit/connect
+source C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader/gdbinit/symbols
+source C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader/gdbinit/connect

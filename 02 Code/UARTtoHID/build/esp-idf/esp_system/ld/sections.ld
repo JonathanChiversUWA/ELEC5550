@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: C:\Users\jojo1\OneDrive\Documents\ESP\UARTtoHID\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: C:\Github\ELEC5550\02 Code\UARTtoHID\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/build/bootloader/bootloader.elf
+file C:/Github/ELEC5550/02 Code/UARTtoHID/build/bootloader/bootloader.elf

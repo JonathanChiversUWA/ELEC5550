@@ -1,0 +1,53 @@
+Command: ninja flash
+[1/5] C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Github\ELEC5550\02 Code\FInalV2\build\esp-idf\esptool_py" && C:\Users\jojo1\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:/Users/jojo1/esp/v5.5.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app "C:/Github/ELEC5550/02 Code/FInalV2/build/partition_table/partition-table.bin" "C:/Github/ELEC5550/02 Code/FInalV2/build/FinalV2.bin""
+FinalV2.bin binary size 0x3fb10 bytes. Smallest app partition is 0x100000 bytes. 0xc04f0 bytes (75%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Github\ELEC5550\02 Code\FInalV2\build\bootloader\esp-idf\esptool_py" && C:\Users\jojo1\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:/Users/jojo1/esp/v5.5.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 "C:/Github/ELEC5550/02 Code/FInalV2/build/bootloader/bootloader.bin""
+Bootloader binary size 0x5240 bytes. 0x2dc0 bytes (36%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jojo1\esp\v5.5.1\esp-idf\components\esptool_py && C:\Users\jojo1\.espressif\tools\cmake\3.30.2\bin\cmake.exe -D IDF_PATH=C:/Users/jojo1/esp/v5.5.1/esp-idf -D SERIAL_TOOL=C:/Users/jojo1/.espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe;;C:/Users/jojo1/esp/v5.5.1/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D "WORKING_DIRECTORY=C:/Github/ELEC5550/02 Code/FInalV2/build" -P C:/Users/jojo1/esp/v5.5.1/esp-idf/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32s3 -p com7 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 FinalV2.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.10.dev2
+Serial port com7
+Connecting...
+Failed to get PID of a device on com7, using standard reset sequence.
+
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded Flash 8MB (GD)
+Crystal is 40MHz
+USB mode: USB-Serial/JTAG
+MAC: 10:20:ba:0e:91:74
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x0004ffff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 21056 bytes to 13391...
+Writing at 0x00000000... (100 %)
+Wrote 21056 bytes (13391 compressed) at 0x00000000 in 0.3 seconds (effective 543.4 kbit/s)...
+Hash of data verified.
+Compressed 260880 bytes to 139551...
+Writing at 0x00010000... (11 %)
+Writing at 0x0001c562... (22 %)
+Writing at 0x00024b33... (33 %)
+Writing at 0x0002b1fd... (44 %)
+Writing at 0x000319a3... (55 %)
+Writing at 0x00038845... (66 %)
+Writing at 0x0004004d... (77 %)
+Writing at 0x00045ea3... (88 %)
+Writing at 0x0004c46d... (100 %)
+Wrote 260880 bytes (139551 compressed) at 0x00010000 in 1.7 seconds (effective 1226.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 649.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

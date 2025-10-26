@@ -2,7 +2,7 @@
 #include "freertos/task.h" //For Task Delay and pdMS TO TICKS
 #include <stdint.h> //uint8_t etc
 #include "driver/uart.h" //for uart stuff, REQUIRES esp_driver_uart
-#include <string.h> //For string manipulation strlen
+#include <string.h> //For string manipulation memcpy
 #include <esp_log.h> //For Serial debugging ESP_LOGI
 #include "usb/usb_host.h" //for host functionality
 #include "driver/gpio.h" //for configuring GPIOs
@@ -199,7 +199,7 @@ void app_main(void){
         .pull_up_en = GPIO_PULLUP_ENABLE, //have this pulled up
         .intr_type = GPIO_INTR_NEGEDGE, //trigger interrupts on falling edge
     };
-    ESP_ERROR_CHECK(gpio_config(&input_pin)); //Set up the pin as above)
+    ESP_ERROR_CHECK(gpio_config(&input_pin)); //Set up the pin as above
     ESP_ERROR_CHECK(gpio_install_isr_service(ESP_INTR_FLAG_LEVEL1)); //low priority interrupt on gpio
     //run gpio_isr_cb when interrupt triggers on APP_QUIT_PIN
     ESP_ERROR_CHECK(gpio_isr_handler_add(APP_QUIT_PIN, gpio_isr_cb, NULL));

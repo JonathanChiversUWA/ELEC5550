@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jojo1/OneDrive/Documents/ESP/UARTtoHID/managed_components/espressif__esp_tinyusb
+# Install script for directory: C:/Github/ELEC5550/02 Code/UARTtoHID/managed_components/espressif__esp_tinyusb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
